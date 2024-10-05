@@ -1,0 +1,11 @@
+.hint{
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}
+.hint span{
+    color:var(--primary-color)
+}
+.link{
+    text-decoration: none;
+    color:var(--primary-color)
+}
