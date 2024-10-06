@@ -3,8 +3,8 @@ import ArrowDropDownCircleIcon from '@mui/icons-material/ArrowDropDownCircle';
 import Grid from '@mui/material/Grid2';
 import './footer.css'
 import { Box, Container } from '@mui/material';
-import AppStore from '../components/AppStore';
-import GooglePlay from '../components/GooglePlay';
+import AppStore from '../assets/icons/AppStore';
+import GooglePlay from '../assets/icons/GooglePlay';
 
 
 

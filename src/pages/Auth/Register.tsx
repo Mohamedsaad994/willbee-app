@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
-import AppleLogin from '../../components/AppleLogin'
+import AppleLogin from '../../assets/icons/AppleLogin'
 import Button from '../../components/Button'
-import GoogleLogin from '../../components/GoogleLogin'
+import GoogleLogin from '../../assets/icons/GoogleLogin'
 import Input from '../../components/Input'
-import MicrosoftLogin from '../../components/MicrosoftLogin'
+import MicrosoftLogin from '../../assets/icons/MicrosoftLogin'
 import './register.css'
 import Title from '../../components/Title'
 
@@ -16,7 +16,7 @@ function Register() {
             <GoogleLogin />
             <AppleLogin />
             <MicrosoftLogin />
-            <Title/>
+            <Title />
 
             <Input label='First Name' for='firstName' type='text' />
             <Input label='Last Name' for='lastName' type='text' />
@@ -27,7 +27,7 @@ function Register() {
 
             <p className='hint'>By signing up, I agree with the website's <span>Terms and Conditions</span> Register</p>
 
-            <Button text='Sign Up'/>
+            <Button text='Sign Up' />
             <p>Already have an account? <Link className='link' to='/auth/signIn'>Log in</Link> </p>
         </div>
     )

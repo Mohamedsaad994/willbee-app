@@ -1,8 +1,8 @@
 
 import { Link } from "react-router-dom"
-import AppleLogin from "../../components/AppleLogin"
-import GoogleLogin from "../../components/GoogleLogin"
-import MicrosoftLogin from "../../components/MicrosoftLogin"
+import AppleLogin from "../../assets/icons/AppleLogin"
+import GoogleLogin from "../../assets/icons/GoogleLogin"
+import MicrosoftLogin from "../../assets/icons/MicrosoftLogin"
 import Input from "../../components/Input"
 import Button from "../../components/Button"
 import Title from "../../components/Title"
@@ -23,8 +23,8 @@ function SignIn() {
             <Input label='E-Mail' for='email' type='mail' />
             <Input label='Password' for='pass' type='password' />
 
-            <FormGroup sx={{marginRight: 'auto'}}>
-                <FormControlLabel sx={{marginBottom: '20px'}} control={<Checkbox />} label="Remember Me" />
+            <FormGroup sx={{ marginRight: 'auto' }}>
+                <FormControlLabel sx={{ marginBottom: '20px' }} control={<Checkbox />} label="Remember Me" />
             </FormGroup>
 
             <Button text='Log in' />
