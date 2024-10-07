@@ -1,5 +1,5 @@
-import Button from "../../components/Button"
-import Input from "../../components/Input"
+import Button from "../../common/Button/Button"
+import Input from "../../common/Input/Input"
 
 
 function ResetPass() {

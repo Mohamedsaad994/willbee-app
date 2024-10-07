@@ -3,8 +3,8 @@ import ArrowDropDownCircleIcon from '@mui/icons-material/ArrowDropDownCircle';
 import Grid from '@mui/material/Grid2';
 import './footer.css'
 import { Box, Container } from '@mui/material';
-import AppStore from '../assets/icons/AppStore';
-import GooglePlay from '../assets/icons/GooglePlay';
+import { AppStore, GooglePlay } from '../../assets/icons/SvgIcons';
+
 
 
 
@@ -13,10 +13,10 @@ function Footer() {
     return (
         <>
             <Box className='primary'>
-                <Container maxWidth="xl" sx={{textAlign:{xs: 'center',md: 'left'}}}>
+                <Container maxWidth="xl" sx={{ textAlign: { xs: 'center', md: 'left' } }}>
                     <img style={{ width: '150px', height: '50px', marginBottom: '25px' }} src="/public/images/Union.png" alt="" />
                     <Grid container spacing={2} >
-                        <Grid size={{md: 4, sm: 12, xs: 12}}>
+                        <Grid size={{ md: 4, sm: 12, xs: 12 }}>
                             <p>
                                 With 65% of free trial users converting to full-paying members, we’re thrilled by the incredible feedback from our community.
                                 Parents are learning how to support their young athletes, coaches are expanding their skill sets with new techniques, and junior players are seeing significant improvements in their UTR.
@@ -33,7 +33,7 @@ function Footer() {
                             </ul>
 
                         </Grid>
-                        <Grid size={{md: 3, sm: 4, xs: 12}}>
+                        <Grid size={{ md: 3, sm: 4, xs: 12 }}>
                             <ul>
                                 <li>Contact</li>
                                 <li>
@@ -47,7 +47,7 @@ function Footer() {
                             </ul>
 
                         </Grid>
-                        <Grid size={{md: 3, sm: 4, xs: 12}}>
+                        <Grid size={{ md: 3, sm: 4, xs: 12 }}>
                             <ul>
                                 <li>DownLoad App</li>
                                 <Box>

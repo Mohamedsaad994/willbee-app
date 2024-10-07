@@ -1,5 +1,5 @@
 import { Box } from "@mui/material"
-import SuccessIcon from "../../assets/icons/SuccessIcon"
+import { SuccessIcon } from "../../assets/icons/SvgIcons"
 
 
 function Congratulations() {

@@ -5,7 +5,6 @@ type inputProps = {
     label: string
     for: string
     type: string
-    togglePasswordVisibility: ()=>void
 }
 
 function Input(props: inputProps) {

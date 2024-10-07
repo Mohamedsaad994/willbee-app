@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import Button from "../../components/Button"
-import OTPVerification from "../../components/OTPVerification"
+import Button from "../../common/Button/Button"
+import OTPVerification from "../../common/OTP/OTPVerification"
 
 
 function Verification() {

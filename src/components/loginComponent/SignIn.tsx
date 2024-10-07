@@ -1,12 +1,10 @@
 
 import { Link } from "react-router-dom"
-import AppleLogin from "../../assets/icons/AppleLogin"
-import GoogleLogin from "../../assets/icons/GoogleLogin"
-import MicrosoftLogin from "../../assets/icons/MicrosoftLogin"
-import Input from "../../components/Input"
-import Button from "../../components/Button"
-import Title from "../../components/Title"
+import Input from "../../common/Input/Input"
+import Button from "../../common/Button/Button"
+import Title from "../../common/Title/Title"
 import { FormGroup, FormControlLabel, Checkbox } from "@mui/material"
+import { GoogleLogin, AppleLogin, MicrosoftLogin } from "../../assets/icons/SvgIcons"
 
 
 function SignIn() {

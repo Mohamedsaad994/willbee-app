@@ -1,11 +1,10 @@
 import { Link } from 'react-router-dom'
-import AppleLogin from '../../assets/icons/AppleLogin'
-import Button from '../../components/Button'
-import GoogleLogin from '../../assets/icons/GoogleLogin'
-import Input from '../../components/Input'
-import MicrosoftLogin from '../../assets/icons/MicrosoftLogin'
+
 import './register.css'
-import Title from '../../components/Title'
+import Title from '../../common/Title/Title'
+import { GoogleLogin, AppleLogin, MicrosoftLogin } from '../../assets/icons/SvgIcons'
+import Input from '../../common/Input/Input'
+import Button from '../../common/Button/Button'
 
 function Register() {
 
