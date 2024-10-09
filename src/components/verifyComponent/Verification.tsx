@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom"
 import Button from "../../common/Button/Button"
 import OTPVerification from "../../common/OTP/OTPVerification"
+import Back from "../../common/back/Back"
+import { Box } from "@mui/material"
 
 
 function Verification() {
@@ -17,11 +19,11 @@ function Verification() {
             <p>Didn't receive the activation code ?<span> Resend </span>  </p>
 
             <Button text='Activation' />
-            <div style={{ marginRight: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <Link className="primary-color none-decoration" to='/auth/register'>
-                    Back
+            <Box sx={{ marginRight: 'auto' }}>
+                <Link className="none-decoration" to='/auth/register'>
+                    <Back />
                 </Link>
-            </div>
+            </Box>
         </div>
     )
 }

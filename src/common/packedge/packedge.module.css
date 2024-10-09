@@ -1,0 +1,27 @@
+.heading{
+    font-size: 30px;
+    font-weight: 700;
+}
+.paragh{
+    font-size: 16px;
+    font-weight: 400;
+    color:var(--secodry-color)
+}
+
+.btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    outline:none;
+    background-color: #F04437;
+    padding: 10px 11px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    cursor: pointer;
+}
+.price{
+    color:var(--primary-color);
+    font-size: 24px;
+    font-weight: 700
+}

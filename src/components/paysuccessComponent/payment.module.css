@@ -1,0 +1,36 @@
+
+.success h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.success p{
+    margin:20px 0
+}
+.darkP{
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn{
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    width:50%;
+    cursor: pointer;
+}
+.btnOutline{
+    border: 1px solid var(--primary-color);
+    outline: none;
+    background-color: #fff;
+    color:var(--primary-color);
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    width:50%;
+    cursor: pointer;
+}

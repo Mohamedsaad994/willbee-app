@@ -1,0 +1,25 @@
+.bookCart{
+    background-image: url('../../../public/images/Group 1000010976.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    /* width:25% */
+}
+
+.bookCart h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.img{
+    border-radius: 50%;
+    width: 98px;
+    height: 98px
+}

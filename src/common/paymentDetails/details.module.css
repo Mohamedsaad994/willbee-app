@@ -1,0 +1,17 @@
+.heading{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0
+}
+.box span{
+    font-size: 20px;
+}
+.box:last-of-type span{
+    font-weight: 700;
+}

@@ -1,0 +1,12 @@
+.span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:7px 10px;
+    border-radius: 20px;
+    border: 1px solid var(--primary-color);
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--primary-color)
+}

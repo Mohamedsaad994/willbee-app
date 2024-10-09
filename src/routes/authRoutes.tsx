@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import AuthModule from "../pages/AuthPage/AuthModule"
+import AuthModule from "../pages/Auth/AuthModule"
 import Register from "../components/registerComponent/Register"
 import ForgotPass from "../components/forgotComponent/ForgotPass"
 import SignIn from "../components/loginComponent/SignIn"
@@ -20,7 +20,7 @@ function AuthRoutes() {
                 <Route path='reset' element={<ResetPass />} />
                 <Route path='verify' element={<Verification />} />
             </Route>
-            <Route path='/success' element={<Congratulations />} />
+            <Route path='auth/success' element={<Congratulations />} />
         </Routes>
     )
 }

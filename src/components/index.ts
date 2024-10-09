@@ -4,3 +4,7 @@ export * from './loginComponent'
 export * from './registerComponent'
 export * from './resetComponent'
 export * from './verifyComponent'
+export * from './checkOutComponent'
+export * from './myCartComponent'
+export * from './paysuccessComponent'
+
