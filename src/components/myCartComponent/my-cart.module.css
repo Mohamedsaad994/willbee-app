@@ -1,7 +1,11 @@
 .cart{
     display: flex;
-    gap: 20px
+    gap: 20px;    
 }
+.lgCart{
+    flex-direction: column;
+}
+
 
 .heading{
     font-size: 48px;
@@ -11,6 +15,17 @@
 .cart .packedgeHolder{
     width:75%
 }
-.cart .detailsHolder{
+/* .lgCart .packedgeHolder{
+    width:70%;
+    margin: auto
+} */
+/* .detailsHolder{
     width: 25%
-}
+} */
+/* .lgDetailsHolder{
+    margin: auto;
+    width:50%
+} */
+/* .mdDetailsHolder{
+
+} */

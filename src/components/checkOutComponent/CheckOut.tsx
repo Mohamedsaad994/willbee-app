@@ -1,4 +1,4 @@
-import { Box, Divider } from "@mui/material"
+import { Box, Divider, useMediaQuery, useTheme } from "@mui/material"
 import Heading from "../../common/heading/Heading"
 import GetWay from "../../common/getWay/GetWay"
 import { MasterCard, RuPay, Visa } from "../../assets/icons/SvgIcons"
@@ -9,17 +9,21 @@ import PaymentButton from "../../common/paymentButton/PaymentButton"
 
 function CheckOut() {
 
+    const theme = useTheme()
+
+    const isMediamScreen = useMediaQuery(theme.breakpoints.down('lg'))
+
     return (
         <>
             <Heading />
-            <Box sx={{ display: 'flex', gap: '20px' }}>
-                <Box sx={{ width: '60%' }}>
+            <Box className={isMediamScreen? DetailsStyle.mdLayOut: ''} sx={{ display: 'flex', gap: '20px' }}>
+                <Box sx={{ width: {lg: '60%', xs: '100%'}  }}>
                     <h3 style={{ fontSize: '24px' }}>Payment getway</h3>
                     <GetWay title="AlAHLY BANK" icon={<MasterCard />} />
                     <GetWay title="ALEX BANK" icon={<Visa />} />
                     <GetWay title="CAIRO BANK" icon={<RuPay />} />
                 </Box>
-                <Box sx={{ backgroundColor: '#F6F6F6', width: '40%', padding: '24px', marginBottom: '30px' }}>
+                <Box sx={{ backgroundColor: '#F6F6F6' , padding: '24px', marginBottom: '30px' }}>
                     <h3 style={{ fontSize: '24px' }}>Order Summary</h3>
                     <Order />
                     <Order />

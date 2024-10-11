@@ -10,3 +10,6 @@
 .box:last-of-type span{
     font-weight: 700;
 }
+.mdLayOut{
+    flex-direction: column;
+}

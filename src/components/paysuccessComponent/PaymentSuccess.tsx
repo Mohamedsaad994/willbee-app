@@ -7,7 +7,7 @@ function PaymentSuccess() {
 
     return (
         <Box sx={{ height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }} className={Styles.success}>
-            <Box sx={{ width: '30%', textAlign: 'center' }}>
+            <Box sx={{ width: {lg:'30%', md: '50%', sm: '70%', xs: '85%'} , textAlign: 'center' }}>
                 <SuccessIcon />
                 <h1>Payment successfully !</h1>
                 <p className={Styles.darkP}>Your order # is: 64484032</p>

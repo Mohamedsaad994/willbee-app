@@ -7,7 +7,7 @@ import Rating from "../rating/Rating"
 function Order() {
 
     return (
-        <Box sx={{display: 'flex', gap: '20px', alignItems: 'center', padding: '12px', borderRadius: 2, backgroundColor: '#fff', my: '20px'}}>
+        <Box sx={{display: 'flex', gap: '20px', alignItems: 'center', padding: '12px', borderRadius: 2, backgroundColor: '#fff', my: '20px', flexDirection: {xs: 'column', sm: 'row'}}}>
             <Box sx={{width: '40%'}}>
                 <BookCart />
             </Box>
